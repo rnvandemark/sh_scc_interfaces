@@ -1,0 +1,5 @@
+# The points of homography to use indefinitely, clockwise from top-left
+sh_common_interfaces/Point[4] pts_of_homog
+---
+# Whether or not the process has succeeded
+bool successful
