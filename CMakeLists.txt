@@ -18,8 +18,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(sh_scc_interfaces
     "msg/ColorPeaksTelem.msg"
-    "srv/RequestScreenCalibration.srv"
-    "srv/SetScreenCalibrationPointsOfHomography.srv"
     DEPENDENCIES sh_common_interfaces sensor_msgs
 )
 
